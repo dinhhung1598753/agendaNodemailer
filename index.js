@@ -40,14 +40,14 @@ agenda.define('send email', { priority: 'high', concurrency: 10 }, function (job
         {
             service: 'gmail',
             auth: {
-                user: 'hoangdinhhung159@gmail.com',
-                pass: 'rajuvmfaurzcyqkp'
+                user: '*****@gmail.com',
+                pass: '********'
             }
         });
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: 'hoangdinhhung159@gmail.com', // sender address
+        from: 'RHP is Land', // sender address
         to: 'trantoan.fox.97@gmail.com', // list of receivers
         subject: 'Hello ✔', // Subject line
         text: 'Hello world ?', // plain text body
